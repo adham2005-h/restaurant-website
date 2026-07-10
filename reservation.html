@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adham Restaurant | Reservation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a class="brand" href="index.html">
+            <img src="Restaurant Img/site-logo.png" alt="Adham Restaurant logo">
+            <span>Adham Restaurant</span>
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a class="active" href="reservation.html">Reservation</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="page-title">
+        <h1>Table Reservation</h1>
+        <p>Complete the form to reserve your table.</p>
+    </section>
+
+    <section class="section form-section">
+        <div class="form-text">
+            <h2>Book Your Table</h2>
+            <p>Choose your date and number of guests, then send the reservation.</p>
+            <p><strong>Working hours:</strong><br>12:00 PM - 11:00 PM</p>
+        </div>
+
+        <form>
+            <label for="name">Full Name</label>
+            <input id="name" type="text" required>
+
+            <label for="email">Email</label>
+            <input id="email" type="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input id="phone" type="tel" required>
+
+            <label for="date">Date</label>
+            <input id="date" type="date" required>
+
+            <label for="guests">Number of Guests</label>
+            <select id="guests" required>
+                <option value="">Choose number</option>
+                <option>2 Guests</option>
+                <option>3 Guests</option>
+                <option>4 Guests</option>
+                <option>5 or More</option>
+            </select>
+
+            <button class="submit-button" type="submit">Send Reservation</button>
+            <p class="message"></p>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-top">
+        <div class="footer-brand">
+            <img src="Restaurant Img/site-logo.png" alt="Adham Restaurant logo">
+            <div>
+                <h2>Adham Restaurant</h2>
+                <p>Fresh food and good moments.</p>
+            </div>
+        </div>
+
+        <div class="footer-buttons">
+            <a href="tel:0506702761"><img src="Restaurant Img/phone-icon.svg" alt="Phone">Call</a>
+            <a href="https://wa.me/971506702761" target="_blank"><img src="Restaurant Img/whatsapp-icon.svg" alt="WhatsApp">WhatsApp</a>
+            <a href="mailto:adham99.h@icloud.com"><img src="Restaurant Img/email-icon.svg" alt="Email">Email</a>
+            <a href="https://github.com/adhammr223-cyber" target="_blank"><img src="Restaurant Img/github-icon.svg" alt="GitHub">GitHub</a>
+        </div>
+    </div>
+
+    <p class="copyright">© 2026 Eng. Adham Hashem Restaurant</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
