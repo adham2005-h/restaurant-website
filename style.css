@@ -319,3 +319,20 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* Make keyboard navigation visible and long text fit small screens. */
+a:focus-visible, button:focus-visible, input:focus-visible,
+select:focus-visible, textarea:focus-visible {
+    outline: 3px solid #d4a246;
+    outline-offset: 3px;
+}
+body { overflow-wrap: break-word; }
+.nav-links a { display: block; }
+@media (max-width: 480px) {
+    .hero h1 { font-size: 32px; }
+    .hero-text { padding: 30px 7%; }
+    form { padding: 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { transition: none !important; }
+}
