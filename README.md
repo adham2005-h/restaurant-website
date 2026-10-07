@@ -6,6 +6,8 @@ A restaurant website with home, menu, reservation and contact pages. I used Java
 
 [Open the live demo](https://adham2005-h.github.io/restaurant-website/)
 
+![Project preview](docs/preview.png)
+
 ## Features
 
 - Browse the home and menu pages.
